@@ -1,0 +1,63 @@
+/* *{
+  color: blue
+  }  /*selector universal: toma todo y le aplica ese estilo */
+
+.azul{
+  background-color:blue;
+}
+h2{   /*así pongo los 2 títulos en blanco */
+  color:white;
+}
+
+a{
+  color:black;
+  text-decoration: none;  /*esto es para sacarle la línea de subrayado al link*/
+
+}
+
+div{
+  background-color: white;
+}
+
+.rojo ol li:first-child{              /*acceder al primer li, "el primer hijo"*/
+  color:black;    /*para ser más específica al cambiar el color, sin ponerle clase a todo*/
+}
+
+.rojo ol li:last-child{              /*acceder al último li, "el primer hijo"*/
+  color:green;
+}
+
+li:first-of-type + li{           /* para afectar a las demás filas de la tabla*/
+  color:orange;
+}
+
+/* # gato para llamar los ID, los ID se pueden colocar a cualquier cosa,
+pero son únicos, no se pueden repetir.... #ID */
+.caja{
+  background-color: yellow;
+  padding: 5em;   /*separa la caja del contenido, recomendable usar em porque se ajusta a todos los dispositivos... es responsible, el px no */
+  border: 1em black solid;
+}
+
+.caja2{
+  background-color: red;
+  padding: 1em;
+  margin-top: 1em;
+  border:0.5em dashed black;
+
+}
+
+.caja3{
+  background-color: green;
+  padding: 1em;
+  margin-top: 1em;
+  border:0.5em dashed black;
+
+}
+body{
+  margin: 0; /*para sacarle el borde al body, el borde que trae por defecto. Limpiar el body*/
+}
+.titulo{
+  text-align: center;
+  color: blue;
+}
