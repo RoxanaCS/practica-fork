@@ -35,7 +35,7 @@ li:first-of-type + li{           /* para afectar a las demás filas de la tabla*
 pero son únicos, no se pueden repetir.... #ID */
 .caja{
   background-color: yellow;
-  padding: 5em;   /*separa la caja del contenido, recomendable usar em porque se ajusta a todos los dispositivos... es responsible, el px no */
+  padding: 5em;   /*separa la caja del contenido, recomendable usar em porque se ajusta a todos los dispositivos... es responsive, el px no */
   border: 1em black solid;
 }
 
